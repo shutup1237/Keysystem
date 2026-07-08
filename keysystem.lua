@@ -23,11 +23,11 @@ local Config = {
     Secret          = "Laith2121", -- This makes the script ONLY run from the key script. Even if they copy the original obfuscated script to bypass the key, they won't be able to!
     
     -- [3] Scripts & Links
-    MainScriptURL   = "Link", -- The raw URL of your main script
+    MainScriptURL   = "https://raw.githubusercontent.com/shutup1237/Keysystem/refs/heads/main/script.lua", -- The raw URL of your main script
     
     -- [4] Social Media Settings (Set to true to show, false to hide)
-    ShowDiscord     = false,
-    DiscordURL      = "https://discord.gg/kT55J724BK",
+    ShowDiscord     = true,
+    DiscordURL      = "https://discord.gg/g7WB4VqHZt",
     
     ShowInstagram   = false,
     InstagramURL    = "https://www.instagram.com/oyb0i/",
@@ -39,12 +39,12 @@ local Config = {
     KeyFileName     = "Mykey.txt", -- The name of the file where the valid key will be saved for auto-login
 
     -- [6] GUI Management
-    OldGuiName      = "", -- Name of the old GUI to destroy if it's already open
-    MainGuiName     = "", -- Name of the main script's GUI to check if it's already executing
+    OldGuiName      = "laith hub", -- Name of the old GUI to destroy if it's already open
+    MainGuiName     = "laith hub", -- Name of the main script's GUI to check if it's already executing
 
     -- [7] Hub Information & UI Text
-    HubName         = "Test", -- The main title shown at the top of the GUI
-    HubDescription  = "Test" -- The text shown below the title
+    HubName         = "Laith hub", -- The main title shown at the top of the GUI
+    HubDescription  = "join our discord server" -- The text shown below the title
 }
 
 -------------------------------------------------------------------------------
